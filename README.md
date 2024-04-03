@@ -1,6 +1,11 @@
 # React + Vite
 
+Production Link: https://master--maxi-send-test.netlify.app/
+
+##Instructions:
 run npm install to install all dependencies
+
+> npm install to install
 
 ¿Cómo decidió las opciones técnicas y arquitectónicas utilizadas como parte de su solución?
 Use las librerías más utilizadas en el desarrollo de software a nivel mundial con las que tengo 4 años de experiencia como Reactjs, React Router Dom, Redux, Scss, jest, React Testing Library, Atomic Design para la estructura entre otras.
