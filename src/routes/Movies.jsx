@@ -3,11 +3,14 @@ import { useData } from "../hooks/useData";
 import { Modal } from "../components/Modal/Modal";
 import { useDispatch, useSelector } from "react-redux";
 import { setDataModal } from "../redux/slices/dataSlice";
+import { FilterBTN } from "../components/FilterBTN/FilterBTN";
 
 export const Movies = () => {
+  const [filterByYear, setFilterByYear] = useState(false);
   const [modal, setModal] = useState(false);
-  const [movies] = useData("movie");
+  const [results, setResults] = useState(20);
 
+  const [movies] = useData("movie", filterByYear, results);
   const { dataModal } = useSelector((state) => state.data);
   const dispatch = useDispatch();
 
@@ -17,6 +20,8 @@ export const Movies = () => {
   }, 1000);
   return (
     <div className="container-xl">
+      <FilterBTN setFilterByYear={setFilterByYear} setResults={setResults} />
+
       <div className="row gap-1">
         {loadedImages ? (
           <h5>Loading...</h5>
