@@ -1,0 +1,56 @@
+@import "bootstrap/scss/bootstrap";
+@import 'normalize';
+
+.bg-steel{
+  background-color: rgb(59, 57, 57);
+}
+.icon{
+  width: 150px;
+  height: 200px;
+  background-color: rgb(40, 40, 40);
+}
+
+#detail{
+  min-height: 55vh;
+  padding: 45px 0;
+}
+
+.entrie_container{
+  width: 150px;
+  height: 200px;
+  img{
+    height: 80%;
+    width: 100%;
+    display: block;
+    color: black;
+    border: 1px solid black;
+    background-image:url('https://upload.wikimedia.org/wikipedia/commons/a/a3/Image-not-found.png');
+  }
+  p{
+    color: black;
+    font-size: 12px;
+  }
+  :hover{
+    border: 1px solid white;
+    opacity: 0.8;
+  }
+}
+
+.popup{
+  padding: 20px 200px;
+  background-color: white;
+  width: 60%;
+  height: 50%;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  img{
+    height: 200px;
+    width: 150px;
+    display: block;
+    color: black;
+    border: 1px solid black;
+    background-image:url('https://upload.wikimedia.org/wikipedia/commons/a/a3/Image-not-found.png');
+  }
+}

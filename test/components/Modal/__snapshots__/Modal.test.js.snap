@@ -1,0 +1,91 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`testing <Header/> should render propertly 1`] = `
+<div>
+  <nav
+    class="navbar navbar-dark bg-primary justify-content-between"
+  >
+    <div
+      class="container-xl"
+    >
+      <a
+        class="navbar-brand "
+        href="/"
+      >
+        <h1
+          class="fw-bold p-0 m-0 my-1"
+        >
+          DEMO Streaming
+        </h1>
+      </a>
+      <form
+        class="form-inline"
+      >
+        <a
+          class="text-white text-decoration-none"
+          href="/"
+        >
+          Log in
+        </a>
+        <a
+          class="btn_header"
+          href="/"
+        >
+          Start your free trial
+        </a>
+      </form>
+    </div>
+  </nav>
+  <div
+    class="bg-steel text-white"
+  >
+    <div
+      class="container-xl"
+    >
+      <h2
+        class="py-2"
+      >
+        Popular
+         
+        Titles
+      </h2>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`testing <Modal/> should render propertly 1`] = `
+<div>
+  <div
+    class="popup shadow-lg p-3 mb-5 bg-white rounded"
+  >
+    <h1>
+      Title: 
+      Wolf Creek
+    </h1>
+    <div
+      class="d-flex gap-5"
+    >
+      <img
+        alt="Wolf Creek"
+        src="http://localhost/12861-PosterArt-ec32a81986a45eac7e080112075ab466.jpg"
+      />
+      <div>
+        <p>
+          Release Year: 
+          2016
+        </p>
+        <p>
+          Description: 
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+        </p>
+        <button
+          class="btn btn-danger"
+        >
+          Close
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+`;

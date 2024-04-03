@@ -1,0 +1,55 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`testing <Header/> should render propertly 1`] = `
+<div>
+  <nav
+    class="navbar navbar-dark bg-primary justify-content-between"
+  >
+    <div
+      class="container-xl"
+    >
+      <a
+        class="navbar-brand "
+        href="/"
+      >
+        <h1
+          class="fw-bold p-0 m-0 my-1"
+        >
+          DEMO Streaming
+        </h1>
+      </a>
+      <form
+        class="form-inline"
+      >
+        <a
+          class="text-white text-decoration-none"
+          href="/"
+        >
+          Log in
+        </a>
+        <a
+          class="btn_header"
+          href="/"
+        >
+          Start your free trial
+        </a>
+      </form>
+    </div>
+  </nav>
+  <div
+    class="bg-steel text-white"
+  >
+    <div
+      class="container-xl"
+    >
+      <h2
+        class="py-2"
+      >
+        Popular
+         
+        Titles
+      </h2>
+    </div>
+  </div>
+</div>
+`;
