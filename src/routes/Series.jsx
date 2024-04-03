@@ -24,7 +24,10 @@ export const Series = () => {
           <h5>Loading...</h5>
         ) : (
           series.map((entrie, index) => (
-            <Link className="entrie_container text-white" key={index}>
+            <Link
+              className="entrie_container text-white"
+              key={index}
+            >
               <img
                 onClick={() => {
                   dispatch(setDataModal({ entrie }));
